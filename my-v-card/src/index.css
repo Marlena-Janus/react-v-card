@@ -1,0 +1,25 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.about_me__wrapper {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  margin: 100px auto 50px;
+}
+
+.about_me__avatar {
+  height: 200px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
