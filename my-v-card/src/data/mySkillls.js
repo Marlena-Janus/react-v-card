@@ -5,11 +5,11 @@ export const mySkills = [
   {
     image: przykladoweZdjecie,
     name: 'JavaScript',
-    descrition: 'przykładowe description'
+    description: 'przykładowe description'
   },
   {
     image: przykladoweZdjecie,
     name: 'React',
-    descrition: 'przykładowe description'
+    description: 'przykładowe description'
   }
 ]

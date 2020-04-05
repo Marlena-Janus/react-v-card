@@ -6,11 +6,7 @@ import { mySkills } from '../../data/mySkillls';
 const ListWrapper = () => (
   <ul className="listWrapper__wrapper">
     {mySkills.map(el => (
-      <ListItem
-        image={el.image}
-        name={el.name}
-        description={el.descrition}
-        />
+      <ListItem key={el.name} {...el} />
     ))}
   </ul>
 )
