@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import AboutMe from './components/AboutMeWrapper/AboutMe';
 import ListWrapper from './components/ListWrapper/ListWrapper';
-import QuestionList from './components/QuestionList/QuestionList';
+import QuestionSection from './components/QuestionSection/QuestionSection';
 
 class App extends React.Component {
   state = {
@@ -14,7 +14,9 @@ class App extends React.Component {
       <div className="wrapper">
         <AboutMe />
         <ListWrapper />
-        <QuestionList />
+        <QuestionSection
+          items={this.state.items}
+        />
       </div>
     )
   }
